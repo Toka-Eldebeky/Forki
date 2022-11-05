@@ -1,0 +1,423 @@
+            * {
+                box-sizing: border-box;
+            }
+            
+            body {
+                margin: 0%;
+            }
+            /* section 1 */
+            
+            .Home {
+                background-image: url(./img/slider/slider-01.jpg);
+                width: 100%;
+                height: 100vh;
+                background-size: cover;
+                margin: auto;
+            }
+            
+            .cov {
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.774);
+            }
+            
+            .nav {
+                padding: 5px 10px;
+                font-family: 'Inter', sans-serif;
+            }
+            
+            .nav ul li {
+                list-style: none;
+                display: inline;
+                font-size: x-large;
+                padding: 30px;
+            }
+            
+            .nav ul li a {
+                text-decoration: none;
+                color: aliceblue;
+            }
+            
+            .nav h1 a {
+                float: left;
+                color: red;
+                text-align: center;
+                font-family: 'Inter', sans-serif;
+                padding: 10px;
+            }
+            
+            .nav ul {
+                float: right;
+            }
+            
+            .cal {
+                clear: both;
+            }
+            
+            .hi h1 {
+                color: red;
+                margin: 0px 0px 10px;
+                font-weight: 800;
+            }
+            
+            .hi h3 {
+                margin: 0px 0px 10px;
+            }
+            
+            .hi h2 {
+                margin: 0px 0px 10px;
+            }
+            
+            .hi {
+                text-align: center;
+                color: aliceblue;
+                font-family: 'Playfair Display', serif;
+                padding-top: 400px;
+                font-size: xx-large;
+            }
+            /* section 2 */
+            
+            .table {
+                padding: 20px;
+            }
+            
+            .table-1 {
+                display: inline;
+                padding-bottom: 10px;
+            }
+            
+            .table-1 .be {
+                font-weight: bold;
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            .table-2 {
+                display: inline;
+                padding: 20px;
+            }
+            
+            .table-2 .be {
+                font-weight: bold;
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            .contant {
+                float: right;
+                width: 60%;
+                font-size: x-large;
+                font-family: 'Aboreto', cursive;
+                font-weight: bold;
+            }
+            
+            .pic {
+                float: left;
+                text-align: center;
+                margin: 90px 0px;
+                border: 8px solid black;
+                border-radius: 5px;
+                width: 360px;
+                height: 440px;
+                position: relative;
+            }
+            
+            .pic img,
+            .pic .overlay {
+                position: absolute;
+                left: 20px;
+                top: 20px;
+                width: 360px;
+                height: 440px;
+            }
+            
+            .pic .overlay {
+                background-color: rgba(0, 0, 0, 0.5);
+                visibility: hidden;
+                text-align: center;
+            }
+            
+            .pic:hover .overlay {
+                visibility: visible;
+            }
+            
+            .cal {
+                clear: both;
+            }
+            
+            .btn {
+                margin: 10px 20px;
+            }
+            
+            .btn .btn-1 {
+                font-size: larger;
+                font-family: 'Aboreto', cursive;
+            }
+            
+            .btn .btn-2 {
+                font-size: larger;
+                font-family: 'Aboreto', cursive;
+            }
+            
+            .container {
+                width: 90%;
+                margin: auto;
+            }
+            
+            .HELLO {
+                width: 90%;
+                padding: 50px 0PX;
+                margin: auto;
+                height: fit-content;
+                background-color: white;
+            }
+            
+            .HELLO h1 {
+                font-family: 'Merriweather', serif;
+            }
+            /* section 3 */
+            
+            .Services {
+                background-color: whitesmoke;
+                width: 90%;
+                margin: auto;
+                padding: 50px 0px;
+                text-align: center;
+            }
+            
+            .Services p {
+                font-size: x-large;
+                font-family: 'Aboreto', cursive;
+            }
+            
+            .Services h2 {
+                font-weight: bolder;
+                padding: 20px 10px;
+                font-family: 'Merriweather', serif;
+            }
+            
+            .Services h1 {
+                font-family: 'Merriweather', serif;
+                font-size: xx-large;
+            }
+            
+            .DESIGN {
+                float: left;
+                width: 25%;
+                padding: 10px;
+            }
+            
+            .DEVELOPMENT {
+                float: left;
+                width: 25%;
+                padding: 10px;
+            }
+            
+            .PRODUCT {
+                float: left;
+                width: 25%;
+                padding: 10px;
+            }
+            
+            .UI-UX {
+                float: left;
+                width: 25%;
+                padding: 10px;
+            }
+            /* section 4 */
+            
+            .Portfolio {
+                background-color: white;
+                width: 90%;
+                margin: auto;
+                text-align: center;
+            }
+            
+            .Portfolio a {
+                text-decoration: none;
+                color: black;
+                padding: 40px 40px;
+                font-size: x-large;
+                font-weight: 500;
+                font-family: 'Aboreto', cursive;
+            }
+            
+            .Portfolio h1 {
+                font-weight: bold;
+                padding: 20px 10px;
+                font-size: xx-large;
+                font-family: 'Merriweather', serif;
+            }
+            
+            .portfolio-pic {
+                padding: 20px 20px;
+                transition: 1s all;
+            }
+            
+            .pico-1 {
+                padding: 10px 20px;
+            }
+            
+            .pico-1 {
+                padding: 10px 20px;
+            }
+            
+            .pico-3 {
+                padding: 10px 20px;
+            }
+            
+            .portfolio-pic2 {
+                padding: 20px 20px;
+            }
+            
+            .pivo-4 {
+                padding: 10px 20px;
+            }
+            
+            .pico-5 {
+                padding: 10px 20px;
+            }
+            
+            .pico-6 {
+                padding: 10px 20px;
+            }
+            /* section 5 */
+            
+            .numbers {
+                background-color: whitesmoke;
+                width: 90%;
+                margin: auto;
+                text-align: center;
+            }
+            
+            .num-1 {
+                float: left;
+                width: 25%;
+                padding: 50px 0px;
+                font-family: 'Aboreto', cursive;
+            }
+            
+            .num-2 {
+                float: left;
+                width: 25%;
+                padding: 50px 0px;
+                font-family: 'Aboreto', cursive;
+            }
+            
+            .num-3 {
+                float: left;
+                width: 25%;
+                padding: 50px 0px;
+                font-family: 'Aboreto', cursive;
+            }
+            
+            .num-4 {
+                float: left;
+                width: 25%;
+                padding: 50px 0px;
+                font-family: 'Aboreto', cursive;
+            }
+            /* Section 6 */
+            /* .Feedback {
+                background-color: blueviolet;
+                width: 90%;
+                margin: auto;
+            } */
+            /* section 7 */
+            
+            .Blog {
+                background-color: whitesmoke;
+                width: 90%;
+                margin: auto;
+                padding: 100px 0px;
+                font-family: 'EB Garamond', serif;
+            }
+            
+            .Blog h1 {
+                font-weight: bolder;
+                text-align: center;
+            }
+            
+            .Blog a {
+                text-decoration: none;
+                color: black;
+            }
+            
+            .Blog img {
+                width: 100%;
+            }
+            
+            .box-1 {
+                float: left;
+                width: 33%;
+                padding: 25px;
+                font-family: 'Aboreto', cursive;
+            }
+            
+            .box-2 {
+                float: left;
+                width: 33%;
+                padding: 25px;
+                font-family: 'Aboreto', cursive;
+            }
+            
+            .box-3 {
+                float: left;
+                width: 33%;
+                padding: 25px;
+                font-family: 'Aboreto', cursive;
+            }
+            /* section 8 */
+            
+            .Us {
+                background-color: white;
+                text-align: center;
+                width: 90%;
+                margin: auto;
+                padding: 50px 0px;
+            }
+            
+            .Us h1 {
+                background-color: white;
+                padding: 40px 0px;
+                font-weight: bolder;
+            }
+            
+            .name {
+                float: left;
+                border: 2px solid;
+            }
+            
+            .mail {
+                float: right;
+                border: 2px solid;
+            }
+            /* section 9 */
+            
+            .footer {
+                background-color: black;
+                width: 90%;
+                margin: auto;
+                padding: 50px 0px;
+                text-align: center;
+                font-family: 'Merriweather', serif;
+                font-weight: 700;
+                font-size: xx-large;
+                color: aliceblue;
+            }
+            
+            .footer a {
+                text-decoration: none;
+                color: red;
+            }
+            
+            .footer a p {
+                width: 100%;
+            }
+            /* all */
+            
+            .bg-gray {
+                background-color: whitesmoke;
+            }
+            
+            .bg-black {
+                background-color: black;
+            }
